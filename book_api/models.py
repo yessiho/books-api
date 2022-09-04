@@ -9,11 +9,3 @@ class Book(models.Model):
     
     def __str__(self):
         return self.title
- 
-  
-# class Person(models.Model):
-#     name = models.TextField()
-#     age = models.IntegerField()
-#     gender =models.CharField()
-#     relationship = models.CharField()
-#     date_of_birth = models.DateField()
